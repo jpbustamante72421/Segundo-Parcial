@@ -1,3 +1,5 @@
+
+#la tupla es un valor inmutable y no se puede modificar ni agregar nigun dato
 tupla=(1,2,3,4,5,2,3,2)
 
 print(type(tupla))#el tipo de dato que es tupla
@@ -11,4 +13,11 @@ print("La cantidadd de elementos de la tupla es esta: ",len(tupla))
 print("La cantidadd de veces que se repite el numero 2: ",tupla.count(2))
 print("El índice del numero 3 es: ",tupla.index(3))
 
-#la tupla es un valor inmutable y no se puede modificar ni agregar nigun dato
+
+#tupla.append(6) #Esto genera un error, ya que las tuplas son inmutables
+datos= ("Juan", 20, True)
+#Tupla de un solo elemento (ojo con eso)
+una_tupla=(5)
+una_tupla=(5,)
+print(datos)
+print(una_tupla)
